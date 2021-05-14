@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{448EB873-60F6-4090-A941-21FC98D46B41}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="for-loops-hw/Program.cs">
+    <Files>
+      <File FileName="for-loops-hw/Program.cs" Line="14" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="for-loops-hw" expanded="True">
+            <Node name="for-loops-hw" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.for-loops-hw PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
