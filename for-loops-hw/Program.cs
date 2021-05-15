@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Threading;
+//using System.Threading;
 
 namespace for_loops_hw
 {
@@ -27,12 +27,75 @@ namespace for_loops_hw
             //}
             //
             //
-            for (int i = 1; i <= 4; i++)
+            //Exercise 3: Create code that prints the following pattern to the Console
+            //1 * *****
+            //12 * ****
+            //123 * ***
+            //1234 * **
+            //12345 * *
+            //123456 *
+            //1234567
+
+
+
+            //int val = 7;
+            //int i, j, k;
+            //for (i = 1; i <= val; i++)
+            //{
+            //    for (j = 1; j <= val - i; j++)
+            //    {
+            //        // Console.Write(" ");  
+            //    }
+            //    for (k = 1; k <= j; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine("");
+            //}
+            //Console.ReadLine();
+
+            //int l, j;
+            //for (l = 1; l <= 7; l++)
+
+            //{
+            //    for (j = 1; j <= l; j++)
+            //    {
+            //        Console.Write("" + (j));
+
+            //    }
+            //    Console.WriteLine("");
+
+            //}
+            //
+            //
+            //Fib Seq up to 10
+            int prv = 0, pre = 1, trm, i, n;
+            n = 10;
+            Console.Write("{0} {1}", prv, pre);
+
+            for (i = 3; i <= n; i++)
             {
-                Console.WriteLine("XOXOXOXO");
-                Console.WriteLine("OXOXOXOX");
-                ;
+                trm = prv + pre;
+                Console.Write("  {0}  ", trm);
+                prv = pre;
+                pre = trm;
             }
+            Console.Write("\n");
+
+
+            //
+            //
+            //Exercise 5: For this exercise, you will create the pattern of a chessboard that is 8 x 8
+            //Use X and O to represent the squares
+            //Create the appropriate nested looping structure to output the characters in an 8 x 8 grid on the screen using Console.Write() or Console.WriteLine() as appropriate
+            //Include a decision structure to ensure that alternate rows start with opposite characters as a real chess board alternates the colors among rows
+
+            //for (int i = 1; i <= 4; i++)
+            //{
+            //    Console.WriteLine("XOXOXOXO");
+            //    Console.WriteLine("OXOXOXOX");
+            //    ;
+            //}
         }
     }
 }
