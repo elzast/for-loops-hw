@@ -69,18 +69,18 @@ namespace for_loops_hw
             //
             //
             //Fib Seq up to 10
-            int prv = 0, pre = 1, trm, i, n;
-            n = 10;
-            Console.Write("{0} {1}", prv, pre);
+            //int prv = 0, pre = 1, trm, i, n;
+            //n = 10;
+            //Console.Write("{0} {1}", prv, pre);
 
-            for (i = 3; i <= n; i++)
-            {
-                trm = prv + pre;
-                Console.Write("  {0}  ", trm);
-                prv = pre;
-                pre = trm;
-            }
-            Console.Write("\n");
+            //for (i = 3; i <= n; i++)
+            //{
+            //    trm = prv + pre;
+            //    Console.Write("  {0}  ", trm);
+            //    prv = pre;
+            //    pre = trm;
+            //}
+            //Console.Write("\n");
 
 
             //
