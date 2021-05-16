@@ -38,6 +38,7 @@ namespace for_loops_hw
 
 
 
+
             //int val = 7;
             //int i, j, k;
             //for (i = 1; i <= val; i++)
@@ -52,15 +53,14 @@ namespace for_loops_hw
             //    }
             //    Console.WriteLine("");
             //}
-            //Console.ReadLine();
-
-            //int l, j;
-            //for (l = 1; l <= 7; l++)
+            
+            //int l2, j2;
+            //for (l2 = 1; l2 <= 7; l2++)
 
             //{
-            //    for (j = 1; j <= l; j++)
+            //    for (j2 = 1; j2 <= l2; j2++)
             //    {
-            //        Console.Write("" + (j));
+            //        Console.Write("" + (j2));
 
             //    }
             //    Console.WriteLine("");
@@ -98,4 +98,5 @@ namespace for_loops_hw
             //}
         }
     }
-}
+    }
+
